@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url(pexels-irina-iriser-1590549.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  }
+
+  .header{
+    box-sizing: border-box;
+    background-color: #333;
+    padding: 0px 50px;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    display: flex;
+    color: bisque;
+    z-index: 100;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.header .logo{
+    font-size: 24px;
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.header a:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+.log a{
+    color: white;
+    text-decoration: none;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+  
+  .login-container,
+  .signup-container {
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(78, 19, 19, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    max-width: 400px;
+    margin: 25vh auto;
+    padding: 5%;
+    box-shadow:2px 5px 6px;
+    backdrop-filter: blur(2px);
+    
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .login-btn,
+  .signup-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover,
+  .signup-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('bg1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #333;
+    padding: 15px 50px;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    display: flex;
+    color: bisque;
+    z-index: 100;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.header .logo{
+    font-size: 24px;
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.header a:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+.log a{
+    color: white;
+    text-decoration: none;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.container{
+    padding: 40px;
+    box-shadow: 3px 0px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    max-width: 400px;
+    margin: 25vh auto;
+    padding: 5%;
+    backdrop-filter: blur(8px);
+    color: rgb(254, 117, 5);
+}
+
+.container h1{
+    font-family: "Heebo", sans-serif;
+    border-bottom: 5px solid purple;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 40%;
+}
+
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 25px 0px;
+    
+}
+.box input{
+    background: none;
+    width: 72%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: green;
+    padding: 4px 9px;
+}
+
+.box i{
+    width: 20px;
+    text-align: center;
+}
+
+p{
+    color: red;
+    text-align: center;
+}
+p a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.btn{
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    background: none;
+    color: rgb(6, 240, 10);
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn:hover{
+    background: white;
+    color: purple;
+    opacity: 0.1;
+}
