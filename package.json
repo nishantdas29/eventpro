@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build": "echo 'No build step defined.'" 
+    "build": "echo 'No build step defined.'",  
+    "test": "echo 'No tests defined.'" 
   },
   "dependencies": {
     "dotenv": "^16.4.5",
